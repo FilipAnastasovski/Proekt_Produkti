@@ -3,7 +3,7 @@
         "id":"1",
         "product_name":"bitolsko mleko",
         "quantity":"edno litro",
-        "slika":" ",
+        "slika":"https://raw.githubusercontent.com/FilipAnastasovski/Proekt_Produkti/master/sliki_od_produkti/bitolsko_mleko.jpg ",
         "type":"drink",
 
         "in_stores":
@@ -40,7 +40,7 @@
         "id":"2",
         "product_name":"milka chokolado",
         "quantity":"100 grama",
-        "slika":" ",
+        "slika":"https://raw.githubusercontent.com/FilipAnastasovski/Proekt_Produkti/master/sliki_od_produkti/milka.jpg ",
         "type":"snack",
 
         "in_stores":
@@ -77,7 +77,7 @@
         "id":"3",
         "product_name":"zito leb",
         "quantity":"200 grama",
-        "slika":" ",
+        "slika":" https://raw.githubusercontent.com/FilipAnastasovski/Proekt_Produkti/master/sliki_od_produkti/zito_leb.jpg",
         "type":"food",
 
         "in_stores":
@@ -113,7 +113,7 @@
         "id":"4",
         "product_name":"jajca od kole",
         "quantity":"10 jajca",
-        "slika":" ",
+        "slika":" https://raw.githubusercontent.com/FilipAnastasovski/Proekt_Produkti/master/sliki_od_produkti/jajca_od_kole.jpg",
         "type":"food",
 
         "in_stores":
@@ -150,7 +150,7 @@
         "id":"5",
         "product_name":"domestos",
         "quantity":"pet litri",
-        "slika":" ",
+        "slika":"https://raw.githubusercontent.com/FilipAnastasovski/Proekt_Produkti/master/sliki_od_produkti/domestos.jpg ",
         "type":"cleaning",
 
         "in_stores":
@@ -186,7 +186,7 @@
         "id":"6",
         "product_name":"smoki",
         "quantity":"50 grama",
-        "slika":" ",
+        "slika":"https://raw.githubusercontent.com/FilipAnastasovski/Proekt_Produkti/master/sliki_od_produkti/smoki.jpg ",
         "type":"snack",
 
         "in_stores":
@@ -223,7 +223,7 @@
         "id":"7",
         "product_name":"skopsko pivo",
         "quantity":"edno litro",
-        "slika":" ",
+        "slika":"https://raw.githubusercontent.com/FilipAnastasovski/Proekt_Produkti/master/sliki_od_produkti/skopsko_pivo.jpg ",
         "type":"drink",
 
         "in_stores":
@@ -260,7 +260,7 @@
         "id":"8",
         "product_name":"coca cola",
         "quantity":"edno litro",
-        "slika":" ",
+        "slika":"https://raw.githubusercontent.com/FilipAnastasovski/Proekt_Produkti/master/sliki_od_produkti/coca_cola.jpg ",
         "type":"drink",
 
         "in_stores":
@@ -297,7 +297,7 @@
         "id":"9",
         "product_name":"sladoled krash",
         "quantity":"300 grama",
-        "slika":" ",
+        "slika":"https://raw.githubusercontent.com/FilipAnastasovski/Proekt_Produkti/master/sliki_od_produkti/crash_ice_cream.jpg ",
         "type":"snack",
 
         "in_stores":
@@ -334,7 +334,7 @@
         "id":"10",
         "product_name":"fanta",
         "quantity":"edno litro",
-        "slika":" ",
+        "slika":"https://raw.githubusercontent.com/FilipAnastasovski/Proekt_Produkti/master/sliki_od_produkti/fanta.jpg ",
         "type":"drink",
 
         "in_stores":
@@ -371,7 +371,7 @@
         "id":"11",
         "product_name":"merci bonbonjera",
         "quantity":"100 grama",
-        "slika":" ",
+        "slika":"https://raw.githubusercontent.com/FilipAnastasovski/Proekt_Produkti/master/sliki_od_produkti/merci_bonbonjera.jpg ",
         "type":"food",
 
         "in_stores":
@@ -408,7 +408,7 @@
         "id":"12",
         "product_name":"chips Lays",
         "quantity":"200 grama",
-        "slika":" ",
+        "slika":"https://raw.githubusercontent.com/FilipAnastasovski/Proekt_Produkti/master/sliki_od_produkti/chips_lays.jpg ",
         "type":"snack",
 
         "in_stores":
@@ -445,7 +445,7 @@
         "id":"13",
         "product_name":"solenki pereci",
         "quantity":"150 grama",
-        "slika":" ",
+        "slika":"https://raw.githubusercontent.com/FilipAnastasovski/Proekt_Produkti/master/sliki_od_produkti/pereci.jpg ",
         "type":"snack",
 
         "in_stores":
@@ -482,7 +482,7 @@
         "id":"14",
         "product_name":"domestos",
         "quantity":"edno litro",
-        "slika":" ",
+        "slika":"https://raw.githubusercontent.com/FilipAnastasovski/Proekt_Produkti/master/sliki_od_produkti/domestos.jpg ",
         "type":"cleaning",
 
         "in_stores":
@@ -518,7 +518,7 @@
         "id":"15",
         "product_name":"dezodorans axe",
         "quantity":"50 grama",
-        "slika":" ",
+        "slika":"https://raw.githubusercontent.com/FilipAnastasovski/Proekt_Produkti/master/sliki_od_produkti/axe_dezodorans.jpg ",
         "type":"misc",
 
         "in_stores":
@@ -555,7 +555,7 @@
         "id":"16",
         "product_name":"krali marko pivo",
         "quantity":"edno litro",
-        "slika":" ",
+        "slika":"https://raw.githubusercontent.com/FilipAnastasovski/Proekt_Produkti/master/sliki_od_produkti/krali_marko_pivo.jpg ",
         "type":"drink",
 
         "in_stores":
@@ -592,7 +592,7 @@
         "id":"17",
         "product_name":"vino skovin",
         "quantity":"edno litro",
-        "slika":" ",
+        "slika":"https://raw.githubusercontent.com/FilipAnastasovski/Proekt_Produkti/master/sliki_od_produkti/vino_skovin.png ",
         "type":"drink",
 
         "in_stores":
@@ -629,7 +629,7 @@
         "id":"18",
         "product_name":"zamrznat zelenchuk",
         "quantity":"300 grama",
-        "slika":" ",
+        "slika":"https://raw.githubusercontent.com/FilipAnastasovski/Proekt_Produkti/master/sliki_od_produkti/zamrznat_zelenchuk.jpg ",
         "type":"food",
 
         "in_stores":
@@ -666,7 +666,7 @@
         "id":"19",
         "product_name":"prozorchi chistenje technost",
         "quantity":"edno litro",
-        "slika":" ",
+        "slika":"https://raw.githubusercontent.com/FilipAnastasovski/Proekt_Produkti/master/sliki_od_produkti/chistenje_prozorci.jpg ",
         "type":"cleaning",
 
         "in_stores":
@@ -703,7 +703,7 @@
         "id":"20",
         "product_name":"pecheno pile",
         "quantity":"500 grama",
-        "slika":" ",
+        "slika":" https://raw.githubusercontent.com/FilipAnastasovski/Proekt_Produkti/master/sliki_od_produkti/pecheno_pile.jpg",
         "type":"food",
 
         "in_stores":
