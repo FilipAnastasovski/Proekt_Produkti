@@ -1,0 +1,741 @@
+[
+    {
+        "id":"1",
+        "product_name":"bitolsko mleko",
+        "quantity":"edno litro",
+        "slika":" ",
+        "type":"drink",
+
+        "in_stores":
+        {
+            "tinex":
+            {
+                "name":"Tinex",
+                "cena":50,
+                "popust":0
+            },
+            "tinex_discount":
+            {
+                "name":"Tinex Discount",
+                "cena":40,
+                "popust":0
+            },
+            "vero":
+            {
+                "name":"Vero",
+                "cena":55,
+                "popust":0
+            },
+            "ramstor":
+            {
+                "name":"Ramstor",
+                "cena":45,
+                "popust":0
+            }
+        }
+
+    },
+
+    {
+        "id":"2",
+        "product_name":"milka chokolado",
+        "quantity":"100 grama",
+        "slika":" ",
+        "type":"snack",
+
+        "in_stores":
+        {
+            "tinex":
+            {
+                "name":"Tinex",
+                "cena":50,
+                "popust":0
+            },
+            "tinex_discount":
+            {
+                "name":"Tinex Discount",
+                "cena":40,
+                "popust":0
+            },
+            "vero":
+            {
+                "name":"Vero",
+                "cena":55,
+                "popust":0
+            },
+            "ramstor":
+            {
+                "name":"Ramstor",
+                "cena":45,
+                "popust":0
+            }
+        }
+
+    },
+
+    {
+        "id":"3",
+        "product_name":"zito leb",
+        "quantity":"200 grama",
+        "slika":" ",
+        "type":"food",
+
+        "in_stores":
+        {
+            "tinex":
+            {
+                "name":"Tinex",
+                "cena":50,
+                "popust":0
+            },
+            "tinex_discount":
+            {
+                "name":"Tinex Discount",
+                "cena":40,
+                "popust":0
+            },
+            "vero":
+            {
+                "name":"Vero",
+                "cena":55,
+                "popust":0
+            },
+            "ramstor":
+            {
+                "name":"Ramstor",
+                "cena":45,
+                "popust":0
+            }
+        }
+
+    },
+    {
+        "id":"4",
+        "product_name":"jajca od kole",
+        "quantity":"10 jajca",
+        "slika":" ",
+        "type":"food",
+
+        "in_stores":
+        {
+            "tinex":
+            {
+                "name":"Tinex",
+                "cena":50,
+                "popust":0
+            },
+            "tinex_discount":
+            {
+                "name":"Tinex Discount",
+                "cena":40,
+                "popust":0
+            },
+            "vero":
+            {
+                "name":"Vero",
+                "cena":55,
+                "popust":0
+            },
+            "ramstor":
+            {
+                "name":"Ramstor",
+                "cena":45,
+                "popust":0
+            }
+        }
+
+    },
+
+    {
+        "id":"5",
+        "product_name":"domestos",
+        "quantity":"pet litri",
+        "slika":" ",
+        "type":"cleaning",
+
+        "in_stores":
+        {
+            "tinex":
+            {
+                "name":"Tinex",
+                "cena":50,
+                "popust":0
+            },
+            "tinex_discount":
+            {
+                "name":"Tinex Discount",
+                "cena":40,
+                "popust":0
+            },
+            "vero":
+            {
+                "name":"Vero",
+                "cena":55,
+                "popust":0
+            },
+            "ramstor":
+            {
+                "name":"Ramstor",
+                "cena":45,
+                "popust":0
+            }
+        }
+    },
+
+    {
+        "id":"6",
+        "product_name":"smoki",
+        "quantity":"50 grama",
+        "slika":" ",
+        "type":"snack",
+
+        "in_stores":
+        {
+            "tinex":
+            {
+                "name":"Tinex",
+                "cena":50,
+                "popust":0
+            },
+            "tinex_discount":
+            {
+                "name":"Tinex Discount",
+                "cena":40,
+                "popust":0
+            },
+            "vero":
+            {
+                "name":"Vero",
+                "cena":55,
+                "popust":0
+            },
+            "ramstor":
+            {
+                "name":"Ramstor",
+                "cena":45,
+                "popust":0
+            }
+        }
+
+    },
+
+    {
+        "id":"7",
+        "product_name":"skopsko pivo",
+        "quantity":"edno litro",
+        "slika":" ",
+        "type":"drink",
+
+        "in_stores":
+        {
+            "tinex":
+            {
+                "name":"Tinex",
+                "cena":50,
+                "popust":0
+            },
+            "tinex_discount":
+            {
+                "name":"Tinex Discount",
+                "cena":40,
+                "popust":0
+            },
+            "vero":
+            {
+                "name":"Vero",
+                "cena":55,
+                "popust":0
+            },
+            "ramstor":
+            {
+                "name":"Ramstor",
+                "cena":45,
+                "popust":0
+            }
+        }
+
+    },
+
+    {
+        "id":"8",
+        "product_name":"coca cola",
+        "quantity":"edno litro",
+        "slika":" ",
+        "type":"drink",
+
+        "in_stores":
+        {
+            "tinex":
+            {
+                "name":"Tinex",
+                "cena":50,
+                "popust":0
+            },
+            "tinex_discount":
+            {
+                "name":"Tinex Discount",
+                "cena":40,
+                "popust":0
+            },
+            "vero":
+            {
+                "name":"Vero",
+                "cena":55,
+                "popust":0
+            },
+            "ramstor":
+            {
+                "name":"Ramstor",
+                "cena":45,
+                "popust":0
+            }
+        }
+
+    },
+
+    {
+        "id":"9",
+        "product_name":"sladoled krash",
+        "quantity":"300 grama",
+        "slika":" ",
+        "type":"snack",
+
+        "in_stores":
+        {
+            "tinex":
+            {
+                "name":"Tinex",
+                "cena":50,
+                "popust":0
+            },
+            "tinex_discount":
+            {
+                "name":"Tinex Discount",
+                "cena":40,
+                "popust":0
+            },
+            "vero":
+            {
+                "name":"Vero",
+                "cena":55,
+                "popust":0
+            },
+            "ramstor":
+            {
+                "name":"Ramstor",
+                "cena":45,
+                "popust":0
+            }
+        }
+
+    },
+
+    {
+        "id":"10",
+        "product_name":"fanta",
+        "quantity":"edno litro",
+        "slika":" ",
+        "type":"drink",
+
+        "in_stores":
+        {
+            "tinex":
+            {
+                "name":"Tinex",
+                "cena":50,
+                "popust":0
+            },
+            "tinex_discount":
+            {
+                "name":"Tinex Discount",
+                "cena":40,
+                "popust":0
+            },
+            "vero":
+            {
+                "name":"Vero",
+                "cena":55,
+                "popust":0
+            },
+            "ramstor":
+            {
+                "name":"Ramstor",
+                "cena":45,
+                "popust":0
+            }
+        }
+
+    },
+
+    {
+        "id":"11",
+        "product_name":"merci bonbonjera",
+        "quantity":"100 grama",
+        "slika":" ",
+        "type":"food",
+
+        "in_stores":
+        {
+            "tinex":
+            {
+                "name":"Tinex",
+                "cena":50,
+                "popust":0
+            },
+            "tinex_discount":
+            {
+                "name":"Tinex Discount",
+                "cena":40,
+                "popust":0
+            },
+            "vero":
+            {
+                "name":"Vero",
+                "cena":55,
+                "popust":0
+            },
+            "ramstor":
+            {
+                "name":"Ramstor",
+                "cena":45,
+                "popust":0
+            }
+        }
+
+    },
+
+    {
+        "id":"12",
+        "product_name":"chips Lays",
+        "quantity":"200 grama",
+        "slika":" ",
+        "type":"snack",
+
+        "in_stores":
+        {
+            "tinex":
+            {
+                "name":"Tinex",
+                "cena":50,
+                "popust":0
+            },
+            "tinex_discount":
+            {
+                "name":"Tinex Discount",
+                "cena":40,
+                "popust":0
+            },
+            "vero":
+            {
+                "name":"Vero",
+                "cena":55,
+                "popust":0
+            },
+            "ramstor":
+            {
+                "name":"Ramstor",
+                "cena":45,
+                "popust":0
+            }
+        }
+
+    },
+
+    {
+        "id":"13",
+        "product_name":"solenki pereci",
+        "quantity":"150 grama",
+        "slika":" ",
+        "type":"snack",
+
+        "in_stores":
+        {
+            "tinex":
+            {
+                "name":"Tinex",
+                "cena":50,
+                "popust":0
+            },
+            "tinex_discount":
+            {
+                "name":"Tinex Discount",
+                "cena":40,
+                "popust":0
+            },
+            "vero":
+            {
+                "name":"Vero",
+                "cena":55,
+                "popust":0
+            },
+            "ramstor":
+            {
+                "name":"Ramstor",
+                "cena":45,
+                "popust":0
+            }
+        }
+
+    },
+
+    {
+        "id":"14",
+        "product_name":"domestos",
+        "quantity":"edno litro",
+        "slika":" ",
+        "type":"cleaning",
+
+        "in_stores":
+        {
+            "tinex":
+            {
+                "name":"Tinex",
+                "cena":50,
+                "popust":0
+            },
+            "tinex_discount":
+            {
+                "name":"Tinex Discount",
+                "cena":40,
+                "popust":0
+            },
+            "vero":
+            {
+                "name":"Vero",
+                "cena":55,
+                "popust":0
+            },
+            "ramstor":
+            {
+                "name":"Ramstor",
+                "cena":45,
+                "popust":0
+            }
+        }
+    },
+
+    {
+        "id":"15",
+        "product_name":"dezodorans axe",
+        "quantity":"50 grama",
+        "slika":" ",
+        "type":"misc",
+
+        "in_stores":
+        {
+            "tinex":
+            {
+                "name":"Tinex",
+                "cena":50,
+                "popust":0
+            },
+            "tinex_discount":
+            {
+                "name":"Tinex Discount",
+                "cena":40,
+                "popust":0
+            },
+            "vero":
+            {
+                "name":"Vero",
+                "cena":55,
+                "popust":0
+            },
+            "ramstor":
+            {
+                "name":"Ramstor",
+                "cena":45,
+                "popust":0
+            }
+        }
+
+    },
+
+    {
+        "id":"16",
+        "product_name":"krali marko pivo",
+        "quantity":"edno litro",
+        "slika":" ",
+        "type":"drink",
+
+        "in_stores":
+        {
+            "tinex":
+            {
+                "name":"Tinex",
+                "cena":50,
+                "popust":0
+            },
+            "tinex_discount":
+            {
+                "name":"Tinex Discount",
+                "cena":40,
+                "popust":0
+            },
+            "vero":
+            {
+                "name":"Vero",
+                "cena":55,
+                "popust":0
+            },
+            "ramstor":
+            {
+                "name":"Ramstor",
+                "cena":45,
+                "popust":0
+            }
+        }
+
+    },
+
+    {
+        "id":"17",
+        "product_name":"vino skovin",
+        "quantity":"edno litro",
+        "slika":" ",
+        "type":"drink",
+
+        "in_stores":
+        {
+            "tinex":
+            {
+                "name":"Tinex",
+                "cena":50,
+                "popust":0
+            },
+            "tinex_discount":
+            {
+                "name":"Tinex Discount",
+                "cena":40,
+                "popust":0
+            },
+            "vero":
+            {
+                "name":"Vero",
+                "cena":55,
+                "popust":0
+            },
+            "ramstor":
+            {
+                "name":"Ramstor",
+                "cena":45,
+                "popust":0
+            }
+        }
+
+    },
+
+    {
+        "id":"18",
+        "product_name":"zamrznat zelenchuk",
+        "quantity":"300 grama",
+        "slika":" ",
+        "type":"food",
+
+        "in_stores":
+        {
+            "tinex":
+            {
+                "name":"Tinex",
+                "cena":50,
+                "popust":0
+            },
+            "tinex_discount":
+            {
+                "name":"Tinex Discount",
+                "cena":40,
+                "popust":0
+            },
+            "vero":
+            {
+                "name":"Vero",
+                "cena":55,
+                "popust":0
+            },
+            "ramstor":
+            {
+                "name":"Ramstor",
+                "cena":45,
+                "popust":0
+            }
+        }
+
+    },
+
+    {
+        "id":"19",
+        "product_name":"prozorchi chistenje technost",
+        "quantity":"edno litro",
+        "slika":" ",
+        "type":"cleaning",
+
+        "in_stores":
+        {
+            "tinex":
+            {
+                "name":"Tinex",
+                "cena":50,
+                "popust":0
+            },
+            "tinex_discount":
+            {
+                "name":"Tinex Discount",
+                "cena":40,
+                "popust":0
+            },
+            "vero":
+            {
+                "name":"Vero",
+                "cena":55,
+                "popust":0
+            },
+            "ramstor":
+            {
+                "name":"Ramstor",
+                "cena":45,
+                "popust":0
+            }
+        }
+
+    },
+
+    {
+        "id":"20",
+        "product_name":"pecheno pile",
+        "quantity":"500 grama",
+        "slika":" ",
+        "type":"food",
+
+        "in_stores":
+        {
+            "tinex":
+            {
+                "name":"Tinex",
+                "cena":50,
+                "popust":0
+            },
+            "tinex_discount":
+            {
+                "name":"Tinex Discount",
+                "cena":40,
+                "popust":0
+            },
+            "vero":
+            {
+                "name":"Vero",
+                "cena":55,
+                "popust":0
+            },
+            "ramstor":
+            {
+                "name":"Ramstor",
+                "cena":45,
+                "popust":0
+            }
+        }
+
+    }
+
+
+    
+]
