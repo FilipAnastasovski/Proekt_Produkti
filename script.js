@@ -1,19 +1,19 @@
-const peopleUrl = 'https://raw.githubusercontent.com/FilipAnastasovski/proekt_produkti/master/listProducts.json';
+const productsURL = 'https://raw.githubusercontent.com/FilipAnastasovski/proekt_produkti/master/listProducts.json';
 
-const people = [];
+const products = [];
 
-let countPeople;
+let countProducts;
 
 $(() => {
     $('#goHome').on('click', showLogo)
     $('#getProducts').on('click', () => {
         showPeople()
-        getCharatersData(peopleUrl)
+        getProductData(productsURL)
     })
 })
-let getCharatersData = (url) => {
-    people.length ? 
-    populateTable(people) :
+let getProductData = (url) => {
+    products.length ? 
+    populateTable(products) :
     fetchData(url)    
 }
 
@@ -21,7 +21,7 @@ let getCharatersData = (url) => {
 const fetchData = url => {
     fetch(url).then(r => r.json())
     .then(r => { 
-        people.push(...r)
+        products.push(...r)
         return r
     }).catch(e => console.log(e))
 }
@@ -45,7 +45,7 @@ const showPeople = () => {
 }
 
 
-let findCharacter = (data, keyword) => {
+let findProduct = (data, keyword) => {
     
 }
 
@@ -124,20 +124,25 @@ function personInfo(data){
 
 }
 
-let populateTable = (people) => {
+let populateTable = (products) => {
    // $('#spinner').html('')
     $('#body').html('');
-    const formatedPeople = formatData(people)
+    const formatedProducts = formatData(products)
     let i =1 ;
-    for (let item of formatedPeople) {
+    for (let item of formatedProducts) {
         
         let nameProduct = item.product_name.toLowerCase();
 
         $('#body').append(`
+
+        
         <tr id="${nameProduct}">
+
+        <td><input type="checkbox" >Add or remove <br> </td>
 
         <td>${item.product_name}</td>
         <td>${item.quantity}</td>
+        <td class="Image"><img src=${item.slika} ></td>
 
         <tr id="stores">
 
