@@ -4,6 +4,8 @@ const products = [];
 
 let countProducts;
 
+
+
 $(() => {
     $('#goHome').on('click', showLogo)
     $('#getProducts').on('click', () => {
@@ -143,6 +145,7 @@ let populateTable = (products) => {
         <td>${item.product_name}</td>
         <td>${item.quantity}</td>
         <td class="Image"><img src=${item.slika} ></td>
+        <td class="tip">${item.type}</td>
 
         <tr id="stores">
 
