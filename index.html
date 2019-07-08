@@ -29,7 +29,7 @@
                 <a class="nav-item nav-link"  >Select what type of prduct you want</a>
                 <a>
                         <select name="GetType" id="getType" >
-                                <option selected disabled > please select type </option>
+                                <option selected disabled > please select type of product </option>
                                 <option value="food">food</option>
                                 <option value="snack">snack</option>
                                 <option value="drink">drink</option>
@@ -39,13 +39,27 @@
                             
                         </a>
                <!-- <td></td>> -->
+               <a class="nav-item nav-link"  >Select what store you preffer</a>
+               <a>
+                <select name="GetStore" id="getStore" >
+                        <option selected disabled > please select store </option>
+                        <option value="Tinex">Tinex</option>
+                        <option value="Tinex_Discount">Tinex_Discount</option>
+                        <option value="Vero">Vero</option>
+                        <option value="Ramstor">Ramstor</option>
+                    </select>
+                    
+                </a>
+               
+                <a><button type="button" class="btnPref" >Search my preference</button></a>
+
             </tr>
                
             </div>
         </div>
     </nav>
 
-    <div class="container">
+    <div class="searchcontainer">
         <div class="row pt-4">
             <div class="col-md-6">
                 <div class="form-group">
@@ -58,23 +72,8 @@
         
         <div id="personInfo"></div>
         
-        <div class="row pt-4">
-            <table id="table" class="table table-striped table-hover ">
-                <thead>
-                    <tr id="products" class="display-none">
-                            <th id="picture" scope="col">Picture</th>
-                        <th id="name" scope="col">Product Name</th>
-                        <th scope="quantity">quantity of product</th>
-                        <th scope="price">Prices</th>
-                        
-                    </tr>
-                    
-                </thead>
-                <tbody id="body">
-
-                </tbody>
-            </table>
-            <img class="logo" src="" alt="">
+        <div class="container">
+           
         </div>
         <div class="row">
             <div class="col-md-4"></div>

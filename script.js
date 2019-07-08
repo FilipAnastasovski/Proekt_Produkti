@@ -12,13 +12,26 @@ $(() => {
         showPeople()
         getProductData(productsURL)
     })
+
+        $('.btnPref').on('click', () => {
+            showPeople()
+            let  type =  $("#getType").val();
+            let store = $("#getStore").val();
+            getFilterProductData(productsURL,type,store)
+       
+        
+    })
 })
 let getProductData = (url) => {
     products.length ? 
     populateTable(products) :
     fetchData(url)    
 }
-
+let getFilterProductData = (url,type,store) => {
+    products.length ? 
+    filterTable(products,type,store) :
+    fetchData(url)    
+}
 
 const fetchData = url => {
     fetch(url).then(r => r.json())
@@ -71,13 +84,44 @@ $(".btnSearch").click(function () {
 
 });
 
-const formatData = people => {
-    return people.map(p => {
+
+
+
+
+    let filterTable = (products,type,store) => {
+
+    if(type != null && store != null )
+    {
+          
+     $(".container").empty();
+     const formatedProducts2 = formatData(products)
+    
+     for (let item of formatedProducts2) {
+        
+            if( (item.type == type) && ( (item.in_stores.tinex.name == store) &&
+                 (item.in_stores.tinex_discount.name == store) &&
+                 (item.in_stores.vero.name == store) &&
+                 (item.in_stores.ramstor.name == store) )   ) {
+            
+   
+                    $('.container').append(`
+          
+          <tr >  ${item.product_name} </tr >  `);
+
+ } } } } 
+
+
+
+
+
+
+const formatData = products => {
+    return products.map(p => {
         // let obj = Object.assign({}, p, { height: p.height + 'cm', mass: p.mass + 'kg' })
         let obj = {
             ...p,
-            height: p.height !== 'unknown' ? p.height + 'cm' : p.height,
-            mass: p.mass !== 'unknown' ? p.mass + 'kg' : p.mass
+            id: p.id !== 'unknown' ? p.id + 'id' : p.id,
+            product_name: p.product_name !== 'unknown' ? p.product_name + 'name' : p.product_name
         }
         // p.height += 'cm'
         // p.mass += 'kg'
@@ -91,13 +135,13 @@ $(`#body`).click(function(){
     console.log(event.target.parentElement.id);
 
     let id = event.target.parentElement.id;
-    getPerson(`${id}`);
+    getProduct(`${id}`);
 
     console.log(id);
     
 })
 
-function getPerson (url){
+function getProduct (url){
 
         fetch(url)
         .then(function (response) {
@@ -128,14 +172,15 @@ function personInfo(data){
 
 let populateTable = (products) => {
    // $('#spinner').html('')
-    $('#body').html('');
+    //$('#body').html('');
+    $(".container").empty();
     const formatedProducts = formatData(products)
     let i =1 ;
     for (let item of formatedProducts) {
         
         let nameProduct = item.product_name.toLowerCase();
 
-        $('#body').append(`
+        $('.container').append(`
 
         
         <tr id="${nameProduct}">
