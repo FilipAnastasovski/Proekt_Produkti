@@ -13,25 +13,25 @@ $(() => {
         getProductData(productsURL)
     })
 
-        $('.btnPref').on('click', () => {
-            showPeople()
-            let  type =  $("#getType").val();
-            let store = $("#getStore").val();
-            getFilterProductData(productsURL,type,store)
+    //     $('.btnPref').on('click', () => {
+    //         showPeople()
+    //         let  type =  $("#getType").val();
+    //         let store = $("#getStore").val();
+    //         getFilterProductData(productsURL,type,store)
        
         
-    })
+    // })
 })
 let getProductData = (url) => {
     products.length ? 
     populateTable(products) :
     fetchData(url)    
 }
-let getFilterProductData = (url,type,store) => {
-    products.length ? 
-    filterTable(products,type,store) :
-    fetchData(url)    
-}
+// let getFilterProductData = (url,type,store) => {
+//     products.length ? 
+//     filterTable(products,type,store) :
+//     fetchData(url)    
+// }
 
 const fetchData = url => {
     fetch(url).then(r => r.json())
@@ -64,6 +64,30 @@ let findProduct = (data, keyword) => {
     
 }
 
+
+$(document).ready(function(){
+    $(".searchBox").on("keyup", function() {
+      var value = $(this).val().toLowerCase();
+      $(".container tr").filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+    });
+  });
+
+
+  $(document).ready(function(){
+    $(".btnPref").click( function() {
+      var type = $("#getType").val().toLowerCase();
+     // var store = $("#getStore").val().toLowerCase();
+      $(".container tr").filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(type) > -1)
+      });
+    });
+  });
+
+
+
+
 $(".btnSearch").click(function () {
 
     $(`tr:visible`).css("color", "black");
@@ -81,6 +105,27 @@ $(".btnSearch").click(function () {
 
     }
 
+});
+
+$('.btnPref').click(function () {
+
+    $(`td:visible`).css("color", "black");
+
+    let  type =  $("#getType").val();
+    let store = $("#getStore").val();
+
+    // console.log(type);
+
+    // if (type !== null && store !== null) {
+
+
+    //     $(`td:visible[id*='${type}']`).css("color", "red");
+        
+      
+    //     console.log(type);
+
+    // }
+
 
 });
 
@@ -88,27 +133,27 @@ $(".btnSearch").click(function () {
 
 
 
-    let filterTable = (products,type,store) => {
+//     let filterTable = (products,type,store) => {
 
-    if(type != null && store != null )
-    {
+//     if(type != null && store != null )
+//     {
           
-     $(".container").empty();
-     const formatedProducts2 = formatData(products)
+//      $(".container").empty();
+//      const formatedProducts2 = formatData(products)
     
-     for (let item of formatedProducts2) {
+//      for (let item of formatedProducts2) {
         
-            if( (item.type == type) && ( (item.in_stores.tinex.name == store) &&
-                 (item.in_stores.tinex_discount.name == store) &&
-                 (item.in_stores.vero.name == store) &&
-                 (item.in_stores.ramstor.name == store) )   ) {
+//             if( (item.type == type) && ( (item.in_stores.tinex.name == store) &&
+//                  (item.in_stores.tinex_discount.name == store) &&
+//                  (item.in_stores.vero.name == store) &&
+//                  (item.in_stores.ramstor.name == store) )   ) {
             
    
-                    $('.container').append(`
+//                     $('.container').append(`
           
-          <tr >  ${item.product_name} </tr >  `);
+//           <tr >  ${item.product_name} </tr >  `);
 
- } } } } 
+//  } } } } 
 
 
 
@@ -190,27 +235,27 @@ let populateTable = (products) => {
         <td>${item.product_name}</td>
         <td>${item.quantity}</td>
         <td class="Image"><img src=${item.slika} ></td>
-        <td class="tip">${item.type}</td>
+        <td class="type">${item.type}</td>
 
-        <tr id="stores">
+       
 
-        <td>${item.in_stores.tinex.name}</td>
+        <td id="${item.in_stores.tinex.name}">${item.in_stores.tinex.name}</td>
         <td>cena: ${item.in_stores.tinex.cena}</td>
         <td>popust: ${item.in_stores.tinex.popust}</td>
 
-        <td>${item.in_stores.vero.name}</td>
+        <td id="${item.in_stores.vero.name}">${item.in_stores.vero.name}</td>
         <td>cena: ${item.in_stores.vero.cena}</td>
         <td>popust:${item.in_stores.vero.popust}</td>
 
-        <td>${item.in_stores.tinex_discount.name}</td>
+        <td id="${item.in_stores.tinex_discount.name}">${item.in_stores.tinex_discount.name}</td>
         <td>cena:${item.in_stores.tinex_discount.cena}</td>
         <td>popust:${item.in_stores.tinex_discount.popust}</td>
 
-        <td>${item.in_stores.ramstor.name}</td>
+        <td id="${item.in_stores.ramstor.name}">${item.in_stores.ramstor.name}</td>
         <td>cena:${item.in_stores.ramstor.cena}</td>
         <td>popust:${item.in_stores.ramstor.popust}</td>
 
-        </tr>
+        
     </tr>
 `);
     
